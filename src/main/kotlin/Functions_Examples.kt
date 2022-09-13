@@ -12,6 +12,7 @@ fun sum(x: Int, y: Int): Int {
 
 fun multiply(x: Int, y: Int) = x * y
 
+
 fun main() {
     printMessage("Hello")
     printMessageWithPrefix("Hello", "Log")

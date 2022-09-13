@@ -21,9 +21,11 @@ fun main(args: Array<String>) {
     //count=11
     //count=12
 
-}
 
-fun calculator()
-{
-
+    //declaring object of a class
+    val smartTvDevice = SmartDevice()
+    print("This is an Smart ${smartTvDevice.category} Device named : ${smartTvDevice.name}")
+    smartTvDevice.turnOnDevice()
+    smartTvDevice.turnOffDevice()
+    smartTvDevice.buyingStatus(100)
 }
